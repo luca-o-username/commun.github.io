@@ -1,0 +1,165 @@
+body{
+	background-color: #aedfd8;
+	margin: 0;
+}
+
+#container{
+	height: 900pt;
+	width: 100%;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo_top{
+	padding-right: 35%;
+ 	padding-left: 35%;
+ 	width: 30%;
+	background-color: white;
+	position: static;
+ 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10%;
+	/*box-shadow: 0 0.3vh 0.8vh #a8a8a8;*/
+}
+
+#logo_bot{
+	padding-right: 40%;
+	padding-left: 40%;
+	width: 20%;
+	padding-top: 3%;
+	background-color: white;
+	position: static;
+ 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5%;
+	/*box-shadow: 0 0.3vh 0.8vh #a8a8a8;*/
+}
+
+
+h1{
+	width: 60%;
+	padding-right: 20%;
+	padding-left: 20%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 5vh;
+	display: block;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	color: #808080;
+	background-color:white;
+}
+
+#about{
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #aedfd8;
+	display: block;
+	color: white;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
+	font-family: helvetica;
+	font-size: 2.1em;
+	word-spacing: 0.7em;
+	line-height: 1.4em;
+}
+
+#no{
+	color: #aedfd8;
+}
+
+#shit{
+	position: relative;
+	top:-32px;
+	padding-top: 20px;
+	background-color: #808080;
+	width:100%;
+}
+
+#notify{
+	color: white;
+	font-size: 1.9em;
+	font-family: helvetica;
+	display: block;
+	padding-right: 10%;
+	padding-left: 10%;
+	width: 80%;
+	text-align: justify;
+}
+
+form{
+	padding-bottom: 40px;
+}
+
+#email {
+	width: 400px;
+	height: 40px;
+	font-size: 25px;
+	text-indent: 20px;
+	font-family: helvetica;
+	border-style: dotted;
+	border-color: white;
+	border-width: 5px;
+	color: #808080;
+	margin-left: 10%;
+	outline-color: #aedfd8;
+	outline-width: 5px;
+}
+
+#sent{
+	height: 40px;
+	width: 100px;
+	font-size: 30px;
+	color: white;
+	font-family: helvetica;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 5px solid white;
+	background-color: #808080;
+	padding-top: 2px;
+	padding-bottom: 7px;
+	outline-color: #aedfd8;
+}
+
+#sent:hover{
+	cursor: pointer;
+}
+
+
+@media (min-width:768px) {
+	#logo_top{
+	 	padding-right: 45%;
+	 	padding-left: 45%;
+		width:10%;
+		padding-top: 10%;
+	}
+
+	#logo_bot{
+	 	padding-right: 45%;
+	 	padding-left: 45%;
+		width:10%;
+		padding-top: 1%;
+		padding-bottom: 5%;
+	}
+
+
+	h1{
+		width: 40%;
+		padding-left: 30%;
+		padding-right: 30%;
+		font-size: 2.5em;
+	}
+
+	#about{
+		padding-left: 10%;
+		padding-right: 10%;
+		font-size: 2.3em;
+	}
+}

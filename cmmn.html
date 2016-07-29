@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>commun</title>
+		<meta charset="UTF-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="cmmn_style.css">
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#sent").click(function(){
+					$("#email").val("your email");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<img src="img/logo.png" id="logo_top">
+			<img src="img/ecrit.png" id="logo_bot">
+			<h1><q>Everybody could be your friend!</q></h1>
+			<p id="about"><br>We believe in friendship and we want to start relationships in the real world. Think of Commun as a good friend that knows everyone, and will introduce you to the girl at your coffee shop that also loves soccer or has the same music taste. You don’t know the people who pass by you every day, but Commun does, and will make you introduce yourself in person to those with common interests and establish a real connection with them.<br> <span id="no">.</span></p>
+			<div id="shit">
+				<p id="notify">If you want to be kept updated about the app please submit your email adress and we will notify you.</p>
+				<form action="MAILTO:taro.spg@gmail.com" method="post" enctype="text/plain">
+					<input type="text" name="mail" value="your email" id="email">
+					<!-- <input type="text" name="comment" value="I'm interested in 'commun'." size="50" style="display:none;"> -->
+					<span id="sent"> send </span>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
